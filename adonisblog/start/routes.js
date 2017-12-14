@@ -24,5 +24,5 @@ Route.get('/test2', function() {
 })
 
 Route.get('/test/:id', function({params}) {
-    return 'This is the id ${params.id}';
+    return `This is the id ${params.id}`;
 })
